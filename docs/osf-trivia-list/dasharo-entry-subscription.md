@@ -45,6 +45,6 @@ you can download them:
 - If you have not received your email or cannot find it, check your spam folder
   or contact Dasharo support for assistance.
 
-Following these steps, you can access and download your Dasharo Pro Package 
-binaries without issues. If you encounter any problems, don't hesitate to 
+Following these steps, you can access and download your Dasharo Pro Package
+binaries without issues. If you encounter any problems, don't hesitate to
 contact the Dasharo support team for further assistance.
