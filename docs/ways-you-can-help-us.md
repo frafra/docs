@@ -84,7 +84,7 @@ that works for you.
 
 ### Become a Dasharo Pro Package subscriber
 
-Buy the [Dasharo Pro Package](https://shop.3mdeb.com/product-category/dasharo-entry-subscription/)
+Buy the [Dasharo Pro Package](https://shop.3mdeb.com/product-category/dasharo-pro-package/)
 if you own/use/buy a machine running Dasharo firmware.
 
 As a Dasharo Pro Package subscriber you will get:
