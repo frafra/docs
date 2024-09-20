@@ -358,6 +358,7 @@ nav:
           - 'Recovery': unified/hardkernel/recovery.md
           - 'Hardkernel ODROID H4+':
               - 'Releases': variants/hardkernel_odroid_h4_plus/releases.md
+              - 'Hardware Configuration Matrix': variants/hardkernel_odroid_h4_plus/hardware-matrix.md
 # - 'Development Environment':
 #     - 'Nix': dev-env/nix-dev-env.md
   - 'Guides':
