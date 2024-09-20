@@ -4,7 +4,6 @@
 
 This guide shows how to build Dasharo firmware for Hardkernel devices.
 
-
 ## Requirements
 
 - Docker
