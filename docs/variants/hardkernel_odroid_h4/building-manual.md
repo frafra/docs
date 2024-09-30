@@ -32,7 +32,7 @@ then follow the steps below:
         For example
 
         ```bash
-        git checkout hardkernel_odroid_h4_v0.9.0-rc2
+        git checkout hardkernel_odroid_h4_v0.9.0
         ```
 
     2. Checkout submodules:
