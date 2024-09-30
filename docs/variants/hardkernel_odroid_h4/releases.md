@@ -14,4 +14,4 @@ For details about our release process please read
 </center>
 
 <!-- TODO -->
-[newsletter]: ./releases.md
+[newsletter]: https://newsletter.3mdeb.com/subscription/pULA4K0Eo
