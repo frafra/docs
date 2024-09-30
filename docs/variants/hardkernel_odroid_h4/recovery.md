@@ -6,33 +6,28 @@ The following documentation describes the process of recovering hardware from
 the brick state using an [RTE](../../transparent-validation/rte/introduction.md)
 and Dasharo open-source firmware.
 
-=== "ODROID-H4+/H4-Ultra"
+## Dual BIOS
 
-    ## Prerequisites
+The **ODROID H4+ and ODROID-H4 Ultra** devices both have the Dual BIOS
+feature. If the device does not boot properly, the backup flash chip can be
+selected using the flash selector jumper.
 
-    The ODROID-H4+ and ODROID-H4-Ultra devices both have the Dual BIOS feature.
-    If the device does not boot properly, the backup  flash chip can be selected
-    using the flash selector jumper.
+![](../../images/odroid_flash_switch.jpg)
+*First bios chip selected using the flash selector*
 
-    ![](../../images/odroid_flash_switch.jpg)
-    *First bios chip selected using the flash selector*
+1. Move the flash selector jumper to select the backup flash chip. If the
+   device does not boot from any of the flash chips, an external recovery
+   needs to be performed. In that case continue with the recovery instructions
+   for the ODROID H4 model.
+2. If the device boots, boot to an OS.
+3. Move the flash selector jumper back to it's original position selecting the
+   previous flash chip, from which the device does not boot.
+4. With the device working, an OS booted and the flash chip selector moved
+   back, the firmware can be flashed using the command:
 
-    1. Move the flash selector jumper to select the backup flash chip.
-    If the device does not boot from any of the flash chips, an external
-    recovery needs to be performed. In that case continue with the recovery
-    instructions for the ODROID H4 model.
-    2. If the device boots, boot to an OS.
-    3. Move the flash selector jumper back to it's original position selecting
-    the previous flash chip, from which the device does not boot.
-
-    ## Firmware flashing
-
-    1. With the device working, an OS booted and the flash chip selector
-    moved back, the firmware can be flashed using the command:
-
-        ```bash
-        flashrom -p internal -w [path_to_binary]
-        ```
+    ```bash
+    flashrom -p internal -w [path_to_binary]
+    ```
 
 === "ODROID H4"
 
