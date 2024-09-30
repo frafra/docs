@@ -20,16 +20,20 @@ To build Dasharo firmware image, first clone the coreboot repository:
     ```
 then follow the steps below:
 
-=== "Odroid H4+"
+=== "Odroid H4"
 
-    1. Checkout to the device's branch:
+    1. To build a specific version checkout to the version's tag.
+    Skip this step otherwise.
+
             ```bash
             cd coreboot
-            git checkout hardkernel_odroid_h4/release
+            git checkout hardkernel_odroid_h4_<version>
             ```
+        For example
 
-    To build a specific version replace `hardkernel_odroid_h4/release` with
-    `hardkernel_odroid_h4_v0.9.x` where `x` is the version number.
+        ```bash
+        git checkout hardkernel_odroid_h4_v0.9.0-rc2
+        ```
 
     2. Checkout submodules:
 
@@ -43,4 +47,4 @@ then follow the steps below:
     ```
 
     The resulting coreboot image will be placed in the coreboot directory as
-    `hardkernel_odroid_h4.rom`.
+    `hardkernel_odroid_h4_<version>.rom`.

@@ -24,13 +24,11 @@ your own backup should be the last resort.
 
 ## Flashing Dasharo
 
-=== "ODROID H4+"
+To flash Dasharo on the platform, execute the following command - replace `[path]`
+with the path to the Dasharo image you want to flash, e.g. `hardkernel_odroid_h4_v0.9.0.rom`.
 
-    To flash Dasharo on the platform, execute the following command - replace `[path]`
-    with the path to the Dasharo image you want to flash, e.g. `hardkernel_odroid_h4_v0.9.0.rom`.
+```bash
+sudo flashrom -p internal -w [path] --ifd -i bios
+```
 
-    ```bash
-    sudo flashrom -p internal -w [path] --ifd -i bios
-    ```
-
-    After successful operation reboot the platform.
+After successful operation reboot the platform.

@@ -3,9 +3,9 @@
 ## Introduction
 
 This document describes the hardware configuration used for validation of
-Dasharo on the Hardkernel ODROID H4+.
+Dasharo on the Hardkernel ODROID H4.
 
-## MinnowBoard Turbot Quad Core
+## Hardkernel ODROID H4+
 
 | Component                      | Description                                 |
 |--------------------------------|---------------------------------------------|

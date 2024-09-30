@@ -34,10 +34,8 @@ medium lock and Secure Boot:
 The settings of all the above options can be restored after a firmware
 update.
 
-=== "ODROID H4+"
+## Updating Dasharo
 
-    ## Updating Dasharo
-
-    ```bash
-    flashrom -p internal -w hardkernel_odroid_h4_v<version>.rom --fmap -i bios
-    ```
+```bash
+flashrom -p internal -w hardkernel_odroid_h4_v<version>.rom --fmap -i bios
+```
