@@ -34,7 +34,7 @@ medium lock and Secure Boot:
 The settings of all the above options can be restored after a firmware
 update.
 
-## Updating Dasharo
+## Updating Dasharo manually
 
 ```bash
 flashrom -p internal -w hardkernel_odroid_h4_v<version>.rom --fmap -i WP_RO -i RW_SECTION_A
